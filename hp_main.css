@@ -321,3 +321,7 @@ html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:1
 .container{background:#fff;}
 .row{background:#fff;}
 .clear{clear:both;}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary{display:block;}
+h1.sitebrand{margin:0px 0px 0px 0px;padding:0px 15px 0px 15px;}
+h1.sitebrand a{font-family:'Roboto Slab', arial, sans-serif;font-size:20px;font-weight:400;line-height:inherit;color:#000000;}
+h1.sitebrand a:hover{text-decoration:none;}
