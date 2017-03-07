@@ -324,6 +324,22 @@ h1.sitebrand{margin:0px 0px 0px 0px;padding:0px 15px 0px 15px;}
 h1.sitebrand a{font-family:'Roboto Slab', arial, sans-serif;font-size:20px;font-weight:400;line-height:inherit;color:#000000;}
 h1.sitebrand a:hover{text-decoration:none;}
 
+@media (max-width: 767px){
+.container-fluid>.navbar-collapse,.container-fluid>.navbar-header,.container>.navbar-collapse,.container>.navbar-header{margin-right:0;margin-left:0}
+.sidebar .widget{padding:10px 0px 10px 0px;}
+#PopularPosts1 img{margin:0px 15px 0px 5px;}
+#footer [class*="col-"] {padding-left:15px !important;padding-right:15px !important;}
+#footer{padding:0px 5px 0px 5px;}
+.footercontainer{width:100%;padding:0px 5px 30px 5px;}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{color:#333;background-color:#f8f8f8;}
+.adjsmt{width:100%;height:1px;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;display:inline-block;}
+#related-posts ul li {float:none;}
+#related-posts a.mod {float:left;width:60%;left:30%;top:0px;position:absolute;word-break:break-word;}
+.pthumb img{width:20%}
+#related-posts ul li{width:100%;padding:0px 20px 0px 20px;}
+.widget-content.list-label-widget-content ul{padding:0px 15px 0px 15px;}
+#BlogArchive1_ArchiveList ul.flat{padding:0px 15px 0px 15px;}
+}
 @media (min-width: 768px){
 .dropdown-menu .sub-menu{left:100%;position:absolute;top:0;visibility:hidden;margin-top:-1px;}
 .dropdown-menu li:hover .sub-menu{visibility:visible;}
