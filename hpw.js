@@ -7,7 +7,8 @@ function hovtoclick(){
 					$(this).find('b').removeClass('caret').addClass('caret-up');
 					$(this).find(".dropdown-menu").stop(true, true).delay(200).slideDown(200, function(){	
 						$(this).siblings().css("z-index", "70");
-						$(this).siblings().css("color", "#F04D4D");	
+						$(this).siblings().css("color", "#1AB898");
+						$(this).siblings().css("background-color":"#fefefe");
 					});	
 				},
 				mouseleave: function () {
