@@ -1,3 +1,4 @@
+$(document).ready(function(e) {
 function hovtoclick(){
 	var wi = $(window).width();
 	if (wi > 992){
@@ -72,6 +73,8 @@ $(window).trigger('resize');
 
 $('.navbar-toggle').click(function(){
 	$("i",this).toggleClass("fa-times_rspnsv");
+});
+	
 });
 
 /*!
