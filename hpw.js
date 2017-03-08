@@ -4,10 +4,10 @@ function hovtoclick(){
 		$(".dropdown").each(function(index, element) {
 			$("ul.nav li.dropdown").on({
 				mouseenter: function () {
-					$(this).find('b').removeClass('caret caret-down').addClass('caret caret-up');
+					$(this).find('b').removeClass('caret-down').addClass('caret-up');
 				},
 				mouseleave: function () {
-					$(this).find('b').removeClass('caret caret-up').addClass('caret caret-down');
+					$(this).find('b').removeClass('caret-up').addClass('caret-down');
 				}
 			});
 		});
