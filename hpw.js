@@ -29,14 +29,6 @@ function hovtoclick(){
 						$this.siblings(".dropdown-menu").slideDown(200, function(){
 							$('.fp_item a.soslink').css("z-index", "40");
 							$('.dropdown-toggle').find('i.fa.fa-caret-down').removeClass('fa-caret-down').addClass('fa-caret-up');
-							$this.css("display", "block");
-							$this.css("z-index", "70");	
-							$this.css("background-color","#1AB898");		
-							$this.css("color", "#F04D4D");
-							$(this).parent().siblings().find('a.dropdown-toggle').css({"background-color":"#2C4552"});
-							$('.dropdown-menu').not(ddtoggle).slideUp(function(){
-								$(this).parent().find('i.fa.fa-caret-up').removeClass('fa-caret-up').addClass('fa-caret-down');
-								$('.dropdown-toggle').css("color", "#fff");
 							});
 						});	
 					}
@@ -46,11 +38,7 @@ function hovtoclick(){
 						{
 							$this.siblings(".dropdown-menu").slideUp(200, function(){
 								$('.fp_item a.soslink').css("z-index", "50");
-								$('.dropdown-toggle').find('i.fa.fa-caret-up').removeClass('fa-caret-up').addClass('fa-caret-down');
-								$this.css("display", "block");
-								$this.css("z-index", "60");		
-								$this.css("background-color","#2C4552");				
-								$this.css("color", "#fff");		
+								$('.dropdown-toggle').find('i.fa.fa-caret-up').removeClass('fa-caret-up').addClass('fa-caret-down');	
 							});
 						}
 					}
