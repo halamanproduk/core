@@ -356,14 +356,15 @@ h1.sitebrand{margin:0px 0px 0px 0px;padding:0px 15px 0px 15px;text-decoration:no
 h1.sitebrand a{font-family:'Roboto', arial, sans-serif;font-size:20px;font-weight:400;line-height:inherit;color:#FFFFFF;text-decoration:none;letter-spacing:.1rem;text-shadow:0 -1px 1px rgba(0, 0, 0, 0.14);}
 h1.sitebrand a:hover{text-decoration:none;}
 
+.fa-bars_rspnsv:before{content:"\f0c9";margin:0px 5px 0px 0px;color:#1AB898;font-size:20px;top:0px;position:relative;text-shadow:0 -1px 1px #fff;}
+.fa-times_rspnsv:before{content:"\f00d";font-size:20px;top:0px;position:relative;text-shadow:0 -1px 1px #fff;}
+
 /*<!--Search Start-->*/
 input#searchbox{width:100%;height:28px;margin:3px 0px 0px 0px;border:none;background:#fff;box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none;}
 .btn-info{margin:2px 0px 0px 0px;padding:4px 12px;background-color:#169E83;border-color:#169E83;outline:none!important;transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;}
 .btn-info.active,.btn-info:active,.btn-info.active:hover,.btn-info:active.focus,.btn-info:active:focus,.btn-info:active:hover,.btn-info.active.focus,.btn-info.active:focus,.btn-info.focus,.btn-info:focus,.btn-info:hover{background-color:#1EAD8B;border-color:#1EAD8B;outline:none!important;}
 .navbar-fixed-top .navbar-collapse{max-height:400px;}
 .navbar-form{border:none;box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none;}
-
-.fa-bars_rspnsv:before{content:"\f0c9";margin:0px 5px 0px 0px;color:#1AB898;font-size:20px;top:0px;position:relative;text-shadow:0 -1px 1px #fff;}
 
 @media (max-width: 767px){
 .navbar-default .navbar-nav>li>a:hover{}
