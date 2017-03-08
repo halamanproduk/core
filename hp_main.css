@@ -336,8 +336,8 @@ img{border-style:none;}
 
 .top_wrapper{margin-bottom:27px;border-bottom:1px solid #DEDEDE;}
 .header_wrapper{padding-top:13px;position:relative;z-index:100;background:#ffffff;}
-.navbar-default .navbar-toggle,.navbar-default .navbar-toggle:focus{background-color:rgba(0, 0, 0, 0.3);border-color:#a7a7a7;transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;}
-.navbar-default .navbar-toggle:hover{background-color:#212121;border-color:#000000;}
+.navbar-default .navbar-toggle,.navbar-default .navbar-toggle:focus{background-color:#169E83;border-color:#169E83;transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;}
+.navbar-default .navbar-toggle:hover{background-color:#1EAD8B;border-color:#1EAD8B;}
 .navbar-default .navbar-toggle .icon-bar{background-color:#FFF;}
 .navbar-default{background:#1AB898;}
 .navbar-brand>img{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;position:relative;top:-7px;vertical-align:middle;}
