@@ -36,8 +36,8 @@ function hovtoclick(){
 							$('.dropdown-toggle').find('b.caret').removeClass('caret').addClass('caret-up');
 							$this.css("display", "block");
 							$this.css("z-index", "70");	
-							$this.css("background-color","#1AB898");		
-							$this.css("color", "#fff");
+							$this.css("background-color","#fefefe");		
+							$this.css("color", "#333");
 							$(this).parent().siblings().find('a.dropdown-toggle').css({"background-color":"#2C4552"});
 							$('.dropdown-menu').not(ddtoggle).slideUp(function(){
 								$(this).parent().find('b.caret-up').removeClass('caret-up').addClass('caret');
@@ -53,8 +53,8 @@ function hovtoclick(){
 								$('.dropdown-toggle').find('b.caret-up').removeClass('caret-up').addClass('caret');
 								$this.css("display", "block");
 								$this.css("z-index", "60");		
-								$this.css("background-color","#fefefe");				
-								$this.css("color", "#333");		
+								$this.css("background-color","#1AB898");				
+								$this.css("color", "#fff");		
 							});
 						}
 					}
