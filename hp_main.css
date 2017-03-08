@@ -363,29 +363,12 @@ input#searchbox{width:100%;height:28px;margin:3px 0px 0px 0px;border:none;backgr
 .navbar-fixed-top .navbar-collapse{max-height:400px;}
 .navbar-form{border:none;box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none;}
 
+.fa-bars_rspnsv:before{content:"\f0c9";margin:0px 5px 0px 0px;color:#1AB898;font-size:20px;top:0px;position:relative;text-shadow:0 -1px 1px #fff;}
+
 @media (max-width: 767px){
 .navbar-default .navbar-nav>li>a:hover{}
 .nav>li{padding:0px 15px 0px 15px;}
-.dropdown-menu{
-position:relative;
-top:100%;
-left:0px;
-z-index:1000;
-display:none;
-float:none;
-padding: 5px 0;
-margin: 2px 0 0;
-font-size:14px;
-text-align:left;
-list-style:none;
--webkit-background-clip:padding-box;
-background-clip:padding-box;
-border:none;
-background-color:transparent;
--webkit-box-shadow:none;
-box-shadow:none;
-}
-  
+.dropdown-menu{position:relative;top:100%;left:0px;z-index:1000;display:none;float:none;padding:5px 0;margin:2px 0 0;font-size:14px;text-align:left;list-style:none;-webkit-background-clip:padding-box;background-clip:padding-box;border:none;background-color:transparent;-webkit-box-shadow:none;box-shadow:none;} 
 .container-fluid>.navbar-collapse,.container-fluid>.navbar-header,.container>.navbar-collapse,.container>.navbar-header{margin-right:0;margin-left:0}
 .sidebar .widget{padding:10px 0px 10px 0px;}
 #PopularPosts1 img{margin:0px 15px 0px 5px;}
