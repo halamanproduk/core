@@ -6,15 +6,13 @@ function hovtoclick(){
 				mouseenter: function () {
 					$(this).find('b').removeClass('caret').addClass('caret-up');
 					$(this).find(".dropdown-menu").stop(true, true).delay(200).slideDown(200, function(){	
-						$(this).siblings().css("z-index", "70");
-						$(this).siblings().css("color", "#F04D4D");	
+						$(this).siblings().css("z-index", "70");	
 					});	
 				},
 				mouseleave: function () {
 					$(this).find('b').removeClass('caret-up').addClass('caret');
 					$(this).find(".dropdown-menu").stop(true, true).delay(200).slideUp(200, function(){	
-						$(this).siblings().css("z-index", "60");
-						$(this).siblings().css("color", "#fff");		
+						$(this).siblings().css("z-index", "60");		
 					});	
 				}
 			});
