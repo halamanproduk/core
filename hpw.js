@@ -23,10 +23,6 @@ function hovtoclick(){
 		$(".dropdown").each(function(index, element) {
 			$(".dropdown-menu").removeAttr("style");
 			$("ul.nav li.dropdown").unbind('mouseenter').unbind('mouseleave');
-
-	
-			e.preventDefault();
-			
 		});
 	}
 };
