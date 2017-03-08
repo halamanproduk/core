@@ -15,7 +15,8 @@ function hovtoclick(){
 					$(this).find('b').removeClass('caret-up').addClass('caret');
 					$(this).find(".dropdown-menu").stop(true, true).delay(200).slideUp(200, function(){	
 						$(this).siblings().css("z-index", "60");
-						$(this).siblings().css("color", "#fff");		
+						$(this).siblings().css("color", "#fff");
+						$(this).siblings().css("background", "#1AB898");
 					});	
 				}
 			});
