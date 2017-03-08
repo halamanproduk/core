@@ -37,7 +37,7 @@ function hovtoclick(){
 							$this.css("display", "block");
 							$this.css("z-index", "70");	
 							$this.css("background-color","#1AB898");		
-							$this.css("color", "#F04D4D");
+							$this.css("color", "#fff");
 							$(this).parent().siblings().find('a.dropdown-toggle').css({"background-color":"#2C4552"});
 							$('.dropdown-menu').not(ddtoggle).slideUp(function(){
 								$(this).parent().find('b.caret-up').removeClass('caret-up').addClass('caret');
