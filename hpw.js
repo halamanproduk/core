@@ -7,7 +7,7 @@ function hovtoclick(){
 					$(this).find('b').removeClass('caret').addClass('caret-up');
 				},
 				mouseleave: function () {
-					$(this).find('b').removeClass('caret-up').addClass('caret').');
+					$(this).find('b').removeClass('caret-up').addClass('caret');
 				}
 			});
 		});
