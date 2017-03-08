@@ -1,59 +1,16 @@
-$(document).ready(function(e) {
-function hovtoclick(){
-	var wi = $(window).width();
-	if (wi > 992)
-	{
-		$(".dropdown").each(function(index, element) {	
-			$("ul.nav li.dropdown").on({
-				mouseenter: function () {
-					$(this).find('i').removeClass('fa-caret-down').addClass('fa-caret-up');
-				},
-				mouseleave: function () {
-					$(this).find('i').removeClass('fa-caret-up').addClass('fa-caret-down');
-				}
-			});
-		});
-	}
-	else
-	{
-		$(".dropdown").each(function(index, element) {
-		$(".dropdown-menu").removeAttr("style");
-			$("ul.nav li.dropdown").unbind('mouseenter').unbind('mouseleave');
-			$(this).children(".dropdown-toggle").click(function(e) {
-				$this = $(this);
-				if($this.attr("data-toggle") == "dropdown")
-				{
-					if($(this).siblings(".dropdown-menu").css("display")!="block")
-					{
-						var ddtoggle = $(this).siblings('.dropdown-menu');
-						$this.siblings(".dropdown-menu").slideDown(200, function(){
-							$('.fp_item a.soslink').css("z-index", "40");
-							$('.dropdown-toggle').find('i.fa.fa-caret-down').removeClass('fa-caret-down').addClass('fa-caret-up');
-							});
-						});	
-					}
-					else
-					{	
-						if ($(this).siblings('.dropdown-menu').parents('.open').length) 
-						{
-							$this.siblings(".dropdown-menu").slideUp(200, function(){
-								$('.fp_item a.soslink').css("z-index", "50");
-								$('.dropdown-toggle').find('i.fa.fa-caret-up').removeClass('fa-caret-up').addClass('fa-caret-down');	
-							});
-						}
-					}
-				}
-				e.preventDefault();
-			});
-		});
-	}
-};
-hovtoclick();
-$(window).resize(function(){
-	hovtoclick();
-});
-$(window).trigger('resize');
-});
+    $(function(){
+    $(".dropdown").hover(            
+            function() {
+                $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
+                $(this).toggleClass('open');
+                $('b', this).toggleClass("caret caret-up");                
+            },
+            function() {
+                $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
+                $(this).toggleClass('open');
+                $('b', this).toggleClass("caret caret-up");                
+            });
+    });
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
