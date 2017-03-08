@@ -53,8 +53,8 @@ function hovtoclick(){
 								$('.dropdown-toggle').find('b.caret-up').removeClass('caret-up').addClass('caret');
 								$this.css("display", "block");
 								$this.css("z-index", "60");		
-								$this.css("background-color","#1AB898");				
-								$this.css("color", "#fff");		
+								$this.css("background-color","#fefefe");				
+								$this.css("color", "#333");		
 							});
 						}
 					}
