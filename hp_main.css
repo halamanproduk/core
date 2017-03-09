@@ -401,8 +401,13 @@ h3.post_item_title{font-size:1px;text-indent:-999999px;position:absolute;}
 .displaypageNum a:hover,.showpage a:hover,.pagecurrent{background:#222;text-decoration:none;color:#fff;}
 .showpageOf{text-decoration:none;display:none!important}
 
+div#footer a{color:#212121;}
+#footer{margin:20px 0px 16px 0px;padding:0px 10px 20px 10px;font-size: 0.9em;color:#000000;border-top:1px solid #F7F7F7;border-bottom:1px solid #F1F1F1;background:#fbfbfb;}
+
+
+
 #footlink{margin:0px auto;padding-top:20px;padding-bottom:10px;width:100%;font-size:11px;background:#ffffff;}
-#footlink a{color:#212121;}
+#footlink a{color:#000000;}
 .gototop{display:none;}
 .gototop-inner {z-index: 999;position: fixed;width: 40px;height: 40px;background-color: rgba(0, 0, 0, 0.3);font-size: 20px;line-height: 36px;text-align: center;color: #FFF;top: auto;left: auto;right: 30px;bottom: 50px;cursor: pointer;border-radius: 2px;-webkit-transition: all 0.4s ease 0s;-moz-transition: all 0.4s ease 0s;-o-transition: all 0.4s ease 0s;transition: all 0.4s ease 0s;}
 .gototop-inner:hover {background-color: #222;}
