@@ -408,7 +408,7 @@ div#footer a{color:#212121;}
 
 
 
-#footlink{margin:0px auto;padding-top:20px;padding-bottom:10px;width:100%;font-size:11px;background:#F7F7F7;}
+#footlink{margin:0px auto;padding-top:20px;padding-bottom:10px;width:100%;font-size:11px;background:#F7F7F7;color:#000000;}
 #footlink a{color:#000000;text-decoration:none;}
 #footlink a:hover{color:#1AB898;}
 .gototop{display:none;}
