@@ -381,6 +381,12 @@ h3.post_item_title{font-size:1px;text-indent:-999999px;position:absolute;}
 .post_meta{display:none;}
 .post_item_inner{display:none;}
 
+#footlink{margin:0px auto;padding-top:20px;padding-bottom:10px;width:100%;font-size:11px;background:#ffffff;}
+#footlink a{color:#212121;}
+.gototop{display:none;}
+.gototop-inner {z-index: 999;position: fixed;width: 40px;height: 40px;background-color: rgba(0, 0, 0, 0.3);font-size: 20px;line-height: 36px;text-align: center;color: #FFF;top: auto;left: auto;right: 30px;bottom: 50px;cursor: pointer;border-radius: 2px;-webkit-transition: all 0.4s ease 0s;-moz-transition: all 0.4s ease 0s;-o-transition: all 0.4s ease 0s;transition: all 0.4s ease 0s;}
+.gototop-inner:hover {background-color: #222;}
+
 @media (max-width: 767px){
 .navbar-default .navbar-nav>li>a:hover{}
 .nav>li{padding:0px 15px 0px 15px;}
