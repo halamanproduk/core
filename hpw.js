@@ -1,4 +1,20 @@
 $(document).ready(function(e) {
+
+$(window).scroll(function () {$(this).scrollTop() ? $(".gototop").fadeIn() : $(".gototop").fadeOut()}), $(".gototop").click(function () {$("html,body").animate({scrollTop: 0}, 500)})
+
+var newerLink = $("a.blog-pager-newer-link").attr("href"); 
+$("a.blog-pager-newer-link").load(newerLink+" h1.mainpost", function() { 
+var chevroncl = "<i class='fa fa-chevron-cl-blgpgritm'></i>";
+var newerLinkTitle = $("a.blog-pager-newer-link").text(); 
+$("a.blog-pager-newer-link").text(newerLinkTitle).attr("title", newerLinkTitle).html(chevroncl + newerLinkTitle);
+}); 
+var olderLink = $("a.blog-pager-older-link").attr("href");
+$("a.blog-pager-older-link").load(olderLink+" h1.mainpost", function() { 
+var chevroncr = "<i class='fa fa-chevron-cr-blgpgritm'></i>";
+var olderLinkTitle = $("a.blog-pager-older-link").text(); 
+$("a.blog-pager-older-link").text(olderLinkTitle).attr("title", olderLinkTitle).html(olderLinkTitle + chevroncr);
+}); 
+
 function hovtoclick(){
 	var wi = $(window).width();
 	if (wi > 992){
@@ -76,6 +92,27 @@ $('.navbar-toggle').click(function(){
 });
 	
 });
+
+$(window).resize(function(e) {
+    var textSize 	= $(".srchqryerr").css("font-size");
+	var maxSize 	= 130;
+	var minSize		= 20;
+	var windowWidth = $(window).width();
+	
+	if(windowWidth < 935) {
+		textChange = ( windowWidth * maxSize ) / 1000 ;
+	}	
+	else {
+		textChange = maxSize;
+	}
+	
+	if(textChange < minSize)
+		textChange = minSize;
+
+	$(".srchqryerr").css("font-size", textChange);    
+	$(".srchqryerr").css("line-height", ""+(textChange*1)+"px");
+});
+
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
