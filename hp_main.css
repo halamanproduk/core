@@ -381,6 +381,13 @@ h3.post_item_title{font-size:1px;text-indent:-999999px;position:absolute;}
 .post_meta{display:none;}
 .post_item_inner{display:none;}
 
+#blog-pager{clear:both;margin:0px auto;padding:30px 15px 20px 15px;text-align:center;line-height:43px;}
+#blog-pager-newer-link{float: left;}
+#blog-pager-newer-link a{font-family:Georgia,"Times New Roman",Times,serif;font-size:12px;font-style:italic;color:#999999;display:inline-block;}
+#blog-pager-newer-link a:hover{text-decoration:none;color:#212121;text-shadow:none;background:#f8f8f8;}
+#blog-pager-older-link {float: right;}#blog-pager-older-link a{font-family:Georgia,"Times New Roman",Times,serif;font-size:12px;font-style:italic;color:#999999;display:inline-block;}
+#blog-pager-older-link a:hover{text-decoration:none;color:#212121;text-shadow:none;background:#f8f8f8;}
+
 .showpageArea{float:left;margin-left:10px;}
 .showpageNum a,.showpage a{background:#b3b3b3;float:left;color:#fff;font-size:14px;text-decoration:none;padding:10px 15px;}
 .showpage a:hover,.showpageNum a:hover{background:#222;}
