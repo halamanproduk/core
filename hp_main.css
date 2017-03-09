@@ -335,19 +335,17 @@ img{border-style:none;}
 .container{background:#1AB898;}
 .row{background:#fff;}
 .clear{clear:both;}
-.col-lg-20{width:20%}
-@media (min-width: 1200px)
-.col-lg-20 {
-    width: 20%;
+
+@media (min-width: 1200px){
+.col-lg-20 {width:20%;}
 }
-@media (min-width: 992px)
-.col-md-20 {
-    width: 20%;
+@media (min-width: 992px){
+.col-md-20 {width:20%;}
 }
-@media (min-width: 768px)
-.col-sm-20 {
-    width: 20%;
+@media (min-width: 768px){
+.col-sm-20 {width:20%;}
 }
+
 .btn-info{background-color:rgba(0, 0, 0, 0.3);border-color:#a7a7a7;outline:none!important;transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;}
 .btn-info.active,.btn-info:active,.btn-info.active:hover,.btn-info:active.focus,.btn-info:active:focus,.btn-info:active:hover,.btn-info.active.focus,.btn-info.active:focus,.btn-info.focus,.btn-info:focus,.btn-info:hover{background-color:#212121;border-color:#000000;outline:none!important;}
 .pddngnll{padding:0px 0px 0px 0px;}
