@@ -381,6 +381,19 @@ h3.post_item_title{font-size:1px;text-indent:-999999px;position:absolute;}
 .post_meta{display:none;}
 .post_item_inner{display:none;}
 
+.showpageArea{float:left;margin-left:10px;}
+.showpageNum a,.showpage a{background:#b3b3b3;float:left;color:#fff;font-size:14px;text-decoration:none;padding:10px 15px;}
+.showpage a:hover,.showpageNum a:hover{background:#222;}
+.showpagePoint{background:#222;float:left;color:#fff;font-size:14px;font-weight:700;padding:10px 15px;}
+.showpageNum a,.showpage a{background:#b3b3b3;float:left;color:#fff;font-size:14px;text-decoration:none;padding:10px 15px;}
+.showpage a:hover,.showpageNum a:hover{background: #222;}
+#blog-pager .pages{text-decoration:none;border:none;}
+#blog-pager .pagecurrent{font-weight:700;color:#fff;background:#222;text-decoration:none;}
+.blog-pager{background:none;text-decoration:none;}
+.displaypageNum a,.showpage a,.pagecurrent{font-size:14px;padding:10px 15px;margin-right:5px;float:none;color:#fff;background:#b3b3b3;text-decoration:none;}
+.displaypageNum a:hover,.showpage a:hover,.pagecurrent{background:#222;text-decoration:none;color:#fff;}
+.showpageOf{text-decoration:none;display:none!important}
+
 #footlink{margin:0px auto;padding-top:20px;padding-bottom:10px;width:100%;font-size:11px;background:#ffffff;}
 #footlink a{color:#212121;}
 .gototop{display:none;}
