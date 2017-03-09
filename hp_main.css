@@ -357,7 +357,6 @@ img{border-style:none;}
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{background-color:#f8f8f8;}
 .caret-up{width:0;height:0;margin-left:2px;border-left:4px solid rgba(0, 0, 0, 0);border-right:4px solid rgba(0, 0, 0, 0);border-bottom:4px solid;display:inline-block;vertical-align:middle;}
 
-
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary{display:block;}
 h1.sitebrand{margin:0px 0px 0px 0px;padding:0px 15px 0px 15px;text-decoration:none;}
 h1.sitebrand a{font-family:'Roboto', arial, sans-serif;font-size:20px;font-weight:400;line-height:inherit;color:#FFFFFF;text-decoration:none;letter-spacing:.1rem;text-shadow:0 -1px 1px rgba(0, 0, 0, 0.14);}
@@ -372,6 +371,10 @@ input#searchbox{width:100%;height:28px;margin:3px 0px 0px 0px;border:none;backgr
 .btn-info.active,.btn-info:active,.btn-info.active:hover,.btn-info:active.focus,.btn-info:active:focus,.btn-info:active:hover,.btn-info.active.focus,.btn-info.active:focus,.btn-info.focus,.btn-info:focus,.btn-info:hover{background-color:#1EAD8B;border-color:#1EAD8B;outline:none!important;}
 .navbar-fixed-top .navbar-collapse{max-height:400px;}
 .navbar-form{border:none;box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none;}
+
+.content_grid{width:100%;padding:12px 0 0px 0;}
+.colprdksection{margin:35px 0px 0px 0px;}
+.postcov{margin:0px 0px 30px 0px;}
 
 @media (max-width: 767px){
 .navbar-default .navbar-nav>li>a:hover{}
