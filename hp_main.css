@@ -333,8 +333,9 @@ textarea:focus,input:focus,input[type]:focus,.form-control:focus,.uneditable-inp
 textarea.form-control{border-color:#efefef;}
 img{border-style:none;}
 .container{background:#1AB898;}
-.row{background:#fefefe;}
-.rowfoot{background:#fbfbfb;}
+.row{}
+.rowbggrid{background:#fefefe;}
+.rowbgfoot{background:#fbfbfb;}
 .clear{clear:both;}
 .btn-info{background-color:rgba(0, 0, 0, 0.3);border-color:#a7a7a7;outline:none!important;transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;}
 .btn-info.active,.btn-info:active,.btn-info.active:hover,.btn-info:active.focus,.btn-info:active:focus,.btn-info:active:hover,.btn-info.active.focus,.btn-info.active:focus,.btn-info.focus,.btn-info:focus,.btn-info:hover{background-color:#212121;border-color:#000000;outline:none!important;}
