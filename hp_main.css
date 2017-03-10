@@ -439,7 +439,7 @@ div#footer a{color:#212121;}
 .gototop-inner:hover{background-color:#1CC5A3;}
 
 #footer a.tlphone{margin:-5px 0px 0px 0px;font-size: 20px;color:#000000;display:block;}
-ul.sosmedba li{text-align:left;}
+ul.sosmedba li{margin:0px 0px 8px 0px;text-align:left;text-transform:uppercase;}
 ul.sosmedph li{}
 .sosmedcov{margin:40px 0px 0px 0px;padding:0;}
 .sosmed_ttle{margin:0px 0px 20px 0px;font-size:14px;}
