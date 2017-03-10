@@ -352,7 +352,8 @@ img{border-style:none;}
 .navbar-default .navbar-toggle:hover{background-color:#1EAD8B;border-color:#1EAD8B;}
 .navbar-default .navbar-toggle .icon-bar{background-color:#FFF;}
 .navbar-default{background:#1AB898;}
-.navbar-brand>img{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;position:relative;top:-7px;vertical-align:middle;}
+.navbar-brand{padding:15px 10px;}
+.navbar-brand>img{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;position:relative;top:-10px;vertical-align:middle;}
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {color:#555;background-color:#fefefe;}
 .navbar-default .navbar-nav>li>a{font-size:14px;color:#ffffff;text-transform:uppercase;text-shadow:0 -1px 1px rgba(0, 0, 0, 0.14);}
 .navbar-default .navbar-nav>li>a:hover{text-shadow: 0px -1px 1px rgba(250,250,250,1);}
