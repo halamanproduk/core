@@ -444,7 +444,7 @@ ul.sosmedba li{margin:0px 0px 10px 0px;text-align:left;}
 ul.sosmedba li.ftrsosmedicon a{font-size:12px!important;color:#000000!important;text-transform:uppercase;}
 ul.sosmedph li{}
 .sosmedcov{margin:40px 0px 0px 0px;padding:0;}
-.sosmed_ttle{margin:0px 0px 20px 0px;font-size:14px;}
+.sosmed_ttle{margin:0px 0px 20px 0px;font-size:14px;font-weight:bold;}
 .sosmed{position:relative;height:100%;padding:0;}
 @media (max-width: 992px){.sosmedcov{margin:50px 0px 20px 0px;padding:0;}}
 ul.sosmedul li{width:20%!important;}
