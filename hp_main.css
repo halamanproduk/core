@@ -368,11 +368,11 @@ h1.sitebrand a:hover{text-decoration:none;}
 
 .fa-bars_rspnsv:before{content:"\f0c9";margin:0px 2px 0px 0px;color:#FFFFFF;font-size:20px;top:0px;position:relative;0 -1px 1px rgba(0, 0, 0, 0.14);}
 .fa-times_rspnsv:before{content:"\f00d";font-size:20px;top:0px;position:relative;text-shadow:0 -1px 1px #fff;}
-.fa-facebook:before{color:#444;font-size:19px;top:0px;position:relative;text-shadow:0 0px 2px #fff;transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;} 
-.fa-twitter:before{color:#444;font-size:19px;top:0px;position:relative;text-shadow:0 0px 2px #fff;transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;}
-.fa-youtube-play:before{color:#444;font-size:19px;top:0px;position:relative;text-shadow:0 0px 2px #fff;transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;} 
-.fa-instagram:before{color:#444;font-size:19px;top:0px;position:relative;text-shadow:0 0px 2px #fff;transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;}
-.fa-google-plus:before{color:#444;font-size:19px;top:0px;position:relative;text-shadow:0 0px 2px #fff;transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;}
+.fa-facebook:before{color:#444;font-size:22px;top:0px;position:relative;text-shadow:0 0px 2px #fff;transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;} 
+.fa-twitter:before{color:#444;font-size:22px;top:0px;position:relative;text-shadow:0 0px 2px #fff;transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;}
+.fa-youtube-play:before{color:#444;font-size:22px;top:0px;position:relative;text-shadow:0 0px 2px #fff;transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;} 
+.fa-instagram:before{color:#444;font-size:22px;top:0px;position:relative;text-shadow:0 0px 2px #fff;transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;}
+.fa-google-plus:before{color:#444;font-size:22px;top:0px;position:relative;text-shadow:0 0px 2px #fff;transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;}
 
 /*<!--Search Start-->*/
 input#searchbox{width:100%;height:28px;margin:3px 0px 0px 0px;border:none;background:#fff;box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none;}
@@ -433,7 +433,7 @@ div#footer a{color:#212121;}
 .gototop-inner:hover{background-color:#1CC5A3;}
 
 .sosmedcov{margin:40px 0px 0px 0px;padding:0;}
-.sosmed_ttle{margin:5px 0px 15px 0px;}
+.sosmed_ttle{margin:5px 0px 30px 0px;}
 .sosmed{position:relative;height:100%;padding:0;}
 @media (max-width: 992px){.sosmedcov{margin:50px 0px 20px 0px;padding:0;}}
 ul.sosmedul li{width:20%!important;}
