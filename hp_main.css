@@ -343,6 +343,7 @@ img{border-style:none;}
 .pddngsvn{padding:0px 7px 0px 7px;}
 .rmvdv{display:none!important;}
 .fltrght{float:right;}
+.txtal{text-align:left;}
 #mycontent{display:none;}
 @media (min-width: 1200px){.col-lg-20 {width:20%;}}
 .top_wrapper{margin-bottom:27px;border-bottom:1px solid #DEDEDE;}
