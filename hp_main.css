@@ -436,7 +436,7 @@ div#footer a{color:#212121;}
 .sosmed_ttle{margin:5px 0px 15px 0px;}
 .sosmed{position:relative;height:100%;padding:0;}
 @media (max-width: 992px){.sosmedcov{margin:50px 0px 20px 0px;padding:0;}}
-ul.sosmedul li{width:20%;}
+ul.sosmedul li{width:20%!important;}
 
 
 @media only screen and (max-width: 991px){.blog-content .col-md-9, .blog-content .col-md-3, #footer [class*="col-"] {width: 100%;}.sidebarwrppr{width:100%;padding:0px 15px 0px 15px;}}
