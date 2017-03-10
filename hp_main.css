@@ -427,6 +427,10 @@ div#footer a{color:#212121;}
 .gototop-inner{z-index:999;position:fixed;width:50px;height:50px;background-color:#1EAD8B;font-size:40px;line-height:45px;text-align:center;color:#FFF;top:auto;left:auto;right:30px;bottom:50px;cursor:pointer;border-radius:2px;-webkit-transition: all 0.4s ease 0s;-moz-transition: all 0.4s ease 0s;-o-transition: all 0.4s ease 0s;transition: all 0.4s ease 0s;}
 .gototop-inner:hover{background-color:#1CC5A3;}
 
+.sosmedcov{margin:40px 0px 0px 0px;padding:0;}
+.sosmed_ttle{margin:5px 0px 15px 0px;}
+.sosmed{position:relative;height:100%;padding:0;}
+@media (max-width: 992px){.sosmedcov{margin:50px 0px 20px 0px;padding:0;}}
 
 @media only screen and (max-width: 991px){.blog-content .col-md-9, .blog-content .col-md-3, #footer [class*="col-"] {width: 100%;}.sidebarwrppr{width:100%;padding:0px 15px 0px 15px;}}
 @media only screen and (max-width: 1199px) and (min-width: 992px){.footercontainer {width: 970px;}}
