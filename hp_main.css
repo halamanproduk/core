@@ -434,8 +434,8 @@ div#footer a{color:#212121;}
 .panel{-webkit-box-shadow:none;box-shadow:none;}
 .panel-default{border-color:transparent;}
 .panel &gt; .panel-heading {position:relative;padding:0px 15px 0px 15px;background:#F7F7F7;}
-.panel-title &gt; a.collapsed:after {content: &#39;&plus;&#39;;position:absolute;right:24px;}
-.panel-title &gt; a:after {content: &#39;&minus;&#39;;position:absolute;right:24px;}
+.panel-title &gt; a.collapsed:after {content: '+';position:absolute;right:24px;}
+.panel-title &gt; a:after {content: '-';position:absolute;right:24px;}
 @media (max-width: 767px){.sosmedcol{display:none!important;}}
 @media (min-width: 768px){.rmvaccdn{display:none!important;}}
 h4 a.accrdn_ttle,h4 a.collapsed.accrdn_ttle{padding:18px 0px 18px 0px;font-size:14px!important;font-weight:bold;width:100%;display:block;text-decoration:none;}
