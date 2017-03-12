@@ -333,7 +333,7 @@ textarea:focus,input:focus,input[type]:focus,.form-control:focus,.uneditable-inp
 textarea.form-control{border-color:#efefef;}
 img{border-style:none;}
 .container{background:#1AB898;}
-.contnrbg{background:#fefefe;}
+.bgdflt{background:#fefefe;}
 .row{}
 .rowbggrid{background:#fefefe;}
 .rowbgfoot{background:#fbfbfb;}
