@@ -471,9 +471,16 @@ ul.sosmedph li{}
 @media (max-width: 992px){.sosmedcov{margin:50px 0px 20px 0px;padding:0;}}
 ul.sosmedul li{width:20%!important;}
 
-@media only screen and (max-width: 991px){.blog-content .col-md-9, .blog-content .col-md-3, #footer [class*="col-"] {width: 100%;}.sidebarwrppr{width:100%;padding:0px 15px 0px 15px;}}
-@media only screen and (max-width: 1199px) and (min-width: 992px){.footercontainer {width: 970px;}.pddngnll{padding:0px 0px 0px 0px;}}
-@media only screen and (max-width: 991px) and (min-width: 768px){.col-md-4 {width: 50%;}.footercontainer {width: 750px;}.col-md-4sbx{width:100%;}}
+@media only screen and (max-width: 991px){
+.blog-content .col-md-9, .blog-content .col-md-3, #footer [class*="col-"] {width: 100%;}
+.sidebarwrppr{width:100%;padding:0px 15px 0px 15px;}.pddngnll{padding:0px 0px 0px 0px;}
+}
+@media only screen and (max-width: 1199px) and (min-width: 992px){
+.footercontainer {width: 970px;}
+}
+@media only screen and (max-width: 991px) and (min-width: 768px){
+.col-md-4 {width: 50%;}.footercontainer {width: 750px;}.col-md-4sbx{width:100%;}
+}
 @media (max-width: 767px){
 .navbar-brand>img{top:-7px;}
 .dropdown-menu{position:relative;float:none;border:none;box-shadow:none;-webkit-box-shadow:none;background:#fff;}
