@@ -6,12 +6,11 @@ var src = $('.featimg').attr('src');
 $('img#itmmainImage').attr('src','' + src + '');
 
 var newerLink = $("a.blog-pager-newer-link").attr("href");
-var newerImg = $("a.blog-pager-newer-link").find("img").attr("src"); 
-$("a.blog-pager-newer-link").load(newerImg+newerLink+" h1.mainpost", function() { 
+$("a.blog-pager-newer-link").load(newerLink+" h1.mainpost", function() { 
 var chevroncl = "<i class='fa fa-chevron-cl-blgpgritm'></i>";
-var newerLinkTitle = $("a.blog-pager-newer-link").text(); 
-var newerLinkImg = $("a.blog-pager-newer-link").img(); 
-$("a.blog-pager-newer-link").text(newerLinkTitle).attr("title", newerLinkTitle).img(newerLinkImg).attr("src", newerLinkImg).html(chevroncl + newerLinkTitle + newerLinkImg);
+var newerLinkTitle = $("a.blog-pager-newer-link").text();
+var newerLinkImg = $('img#itmmainImage').attr('src','' + src + '');
+$("a.blog-pager-newer-link").text(newerLinkTitle).attr("title", newerLinkTitle).html(chevroncl + newerLinkTitle + newerLinkImg);
 }); 
 var olderLink = $("a.blog-pager-older-link").attr("href");
 $("a.blog-pager-older-link").load(olderLink+" h1.mainpost", function() { 
