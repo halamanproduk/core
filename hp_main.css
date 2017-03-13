@@ -441,11 +441,11 @@ a.home-link:hover{color: #212121;}
 .post_tag a:hover{text-decoration:none;background-color:#222;color:#FFFFFF !important;opacity:1;text-shadow:0 1px 1px rgba(0, 0, 0, 0.3);}}
 
 .addthis_toolbox_cov{margin-bottom:30px;padding:20px;}
-.status-msg-body{position: relative !important;}
-.CSS_LIGHTBOX{z-index: 9999 !important;}
-.fblike{height: 20px;max-width: 84px;padding: 8px 0 3px 13px;}
-.post-share-buttons{margin-left: 46px;margin-top: 20px;}
-.small_thumb{background-color: #FFFFFF;border: 1px solid #EEEEEE;border-radius: 2px;padding: 3px;}
+.status-msg-body{position:relative!important;}
+.CSS_LIGHTBOX{z-index: 9999!important;}
+.fblike{height:20px;max-width:84px;padding:8px 0 3px 13px;}
+.post-share-buttons{margin-left:46px;margin-top:20px;}
+.small_thumb{background-color:#FFFFFF;border:1px solid #EEEEEE;border-radius:2px;padding:3px;}
 
 #related-posts{border-top:1px solid rgba(0, 0, 0, 0.02);margin-bottom: 30px;}
 #related-posts ul{padding: 0 10px;}
