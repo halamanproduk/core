@@ -3,7 +3,7 @@ $(document).ready(function(e) {
 $(window).scroll(function () {$(this).scrollTop() ? $(".gototop").fadeIn() : $(".gototop").fadeOut()}), $(".gototop").click(function () {$("html,body").animate({scrollTop: 0}, 500)})
 
 var src = $('.featimg').attr('src');
-$('img#itmmainImage"').attr('src','' + src + '');
+$('img#itmmainImage').attr('src','' + src + '');
 	
 var newerLink = $("a.blog-pager-newer-link").attr("href"); 
 $("a.blog-pager-newer-link").load(newerLink+" h1.mainpost", function() { 
