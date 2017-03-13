@@ -9,7 +9,7 @@ var newerLink = $("a.blog-pager-newer-link").attr("href");
 $("a.blog-pager-newer-link").load(newerLink+" h1.mainpost", function() { 
 var chevroncl = "<i class='fa fa-chevron-cl-blgpgritm'></i>";
 var newerLinkTitle = $("a.blog-pager-newer-link").text();
-var newerLinkImg = $('img#itmmainImage').attr('src','' + src + '');
+var newerLinkImg = $('a.blog-pager-newer-link').attr('src');
 $("a.blog-pager-newer-link").text(newerLinkTitle).attr("title", newerLinkTitle).html(chevroncl + newerLinkTitle + newerLinkImg);
 }); 
 var olderLink = $("a.blog-pager-older-link").attr("href");
