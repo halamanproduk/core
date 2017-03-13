@@ -4,7 +4,7 @@ $(window).scroll(function () {$(this).scrollTop() ? $(".gototop").fadeIn() : $("
 
 var src = $('.featimg').attr('src');
 $('img#itmmainImage').attr('src','' + src + '');
-	
+/*
 var newerLink = $("a.blog-pager-newer-link").attr("href"); 
 $("a.blog-pager-newer-link").load(newerLink+" h1.mainpost", function() { 
 var chevroncl = "<i class='fa fa-chevron-cl-blgpgritm'></i>";
@@ -17,7 +17,7 @@ var chevroncr = "<i class='fa fa-chevron-cr-blgpgritm'></i>";
 var olderLinkTitle = $("a.blog-pager-older-link").text(); 
 $("a.blog-pager-older-link").text(olderLinkTitle).attr("title", olderLinkTitle).html(olderLinkTitle + chevroncr);
 }); 
-
+*/
 function hovtoclick(){
 	var wi = $(window).width();
 	if (wi > 992){
