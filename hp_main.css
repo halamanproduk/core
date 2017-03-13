@@ -440,7 +440,7 @@ a.home-link:hover{color: #212121;}
 .post_tag a{background-color:#f8f8f8;box-shadow:0 1px 1px rgba(0, 0, 0, 0.1);color:#666666 !important;font-weight:normal;margin-bottom:5px;margin-right:5px;padding:0.7em 0.9em;text-shadow:0 1px 1px #FFFFFF;}
 .post_tag a:hover{text-decoration:none;background-color:#222;color:#FFFFFF !important;opacity:1;text-shadow:0 1px 1px rgba(0, 0, 0, 0.3);}}
 
-.addthis_toolbox_cov{background:#fefefe;margin-bottom:30px;padding:20px;}
+.addthis_toolbox_cov{margin-bottom:30px;padding:20px;}
 .status-msg-body{position:relative!important;}
 .CSS_LIGHTBOX{z-index: 9999!important;}
 .fblike{height:20px;max-width:84px;padding:8px 0 3px 13px;}
