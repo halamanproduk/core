@@ -389,11 +389,11 @@ h1.sitebrand a:hover{text-decoration:none;}
 .fa-chevron-circle-crsl-left:before{content:"\f137";color:#fff;font-size:30px;top:200px;position:relative;}
 .fa-chevron-cl-blgpgritm:before{content:"\f137";color:rgba(0, 0, 0, 0.3);font-size:20px;position:relative;top:2px;padding:0px 5px 0px 0px;}
 .fa-chevron-cr-blgpgritm:before{content:"\f138";color:rgba(0, 0, 0, 0.3);font-size:20px;position:relative;top:2px;padding:0px 0px 0px 5px;}
-.fa-home:before{content:"\f015";color:rgba(0, 0, 0, 0.3);font-size:20px;}
-.fa-home:hover:before,.fa-chevron-circle-right:hover:before,.fa-chevron-circle-left:hover:before{color:#222;}
-/*
+.fa-home-blgpgr:before{content:"\f015";color:rgba(0, 0, 0, 0.3);font-size:20px;}
+.fa-home-blgpgr:hover:before,.fa-chevron-circle-right:hover:before,.fa-chevron-circle-left:hover:before{color:#222;}
+
 .fa-home:before{content:"\f015";padding:0px 4px 0px 0px;font-size:14px;top:0px;position:relative;text-shadow:0 -1px 1px #fff;}
-*/
+
 .tophr{margin:20px 0px 0px 0px;}
 .breadcrumbs{margin:0px 0px 0px 0px;font-size:11px;line-height:20px;letter-spacing:.1rem;color:#444;text-transform:uppercase;background:transparent;}
 .breadcrumbs &gt; li{color:#444;}
