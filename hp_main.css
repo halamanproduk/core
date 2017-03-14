@@ -397,7 +397,7 @@ h1.sitebrand a:hover{text-decoration:none;}
 .fa-chevron-cr-blgpgritm:before{content:"\f138";color:rgba(0, 0, 0, 0.3);font-size:20px;position:relative;top:2px;padding:0px 0px 0px 5px;}
 .fa-home:before{content:"\f015";padding:0px 4px 0px 0px;font-size:14px;top:0px;position:relative;text-shadow:0 -1px 1px #fff;}
 .fa-home-blgpgr:before{content:"\f015";color:rgba(0, 0, 0, 0.3);font-size:20px;}
-.fa-home:hover:before.fa-home-blgpgr:hover:before,.fa-chevron-circle-right:hover:before,.fa-chevron-circle-left:hover:before{color:#1AB898;}
+.fa-home:hover:before,.fa-home-blgpgr:hover:before,.fa-chevron-circle-right:hover:before,.fa-chevron-circle-left:hover:before{color:#1AB898;}
 
 .tophr{margin:20px 0px 0px 0px;}
 .tophrsl{margin:-15px 0px 0px 0px;}
