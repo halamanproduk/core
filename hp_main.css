@@ -374,7 +374,7 @@ img{border-style:none;}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary{display:block;}
 h1.sitebrand{margin:0px 0px 0px 0px;padding:0px 15px 0px 15px;text-decoration:none;}
-h1.sitebrand a{font-family:'Roboto', arial, sans-serif;font-size:20px;font-weight:400;line-height:inherit;color:#FFFFFF;text-decoration:none;letter-spacing:.076rem;text-shadow:0 -1px 1px rgba(0, 0, 0, 0.14);}
+h1.sitebrand a{font-family:'Roboto', arial, sans-serif;font-size:25px;font-weight:400;line-height:inherit;color:#FFFFFF;text-decoration:none;letter-spacing:.076rem;text-shadow:0 -1px 1px rgba(0, 0, 0, 0.14);}
 h1.sitebrand a:hover{text-decoration:none;}
 
 .fa-bars_rspnsv:before{content:"\f0c9";margin:0px 2px 0px 0px;color:#FFFFFF;font-size:20px;top:0px;position:relative;0 -1px 1px rgba(0, 0, 0, 0.14);}
