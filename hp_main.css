@@ -566,7 +566,7 @@ h4 a.accrdn_ttle,h4 a.collapsed.accrdn_ttle{padding:18px 0px 18px 0px;font-size:
 #footlink a{color:#000000;text-decoration:none;}
 #footlink a:hover{color:#1AB898;}
 .gototop{display:none;}
-.gototop-inner{z-index:999;position:fixed;width:50px;height:50px;background-color:#1EAD8B;font-size:40px;line-height:45px;text-align:center;color:#FFF;top:auto;left:auto;right:30px;bottom:50px;cursor:pointer;border-radius:2px;-webkit-transition: all 0.4s ease 0s;-moz-transition: all 0.4s ease 0s;-o-transition: all 0.4s ease 0s;transition: all 0.4s ease 0s;}
+.gototop-inner{z-index:999;position:fixed;width:40px;height:40px;background-color:#1EAD8B;font-size:30px;line-height:35px;text-align:center;color:#FFF;top:auto;left:auto;right:30px;bottom:50px;cursor:pointer;border-radius:2px;-webkit-transition: all 0.4s ease 0s;-moz-transition: all 0.4s ease 0s;-o-transition: all 0.4s ease 0s;transition: all 0.4s ease 0s;}
 .gototop-inner:hover{background-color:#1CC5A3;}
 
 #footer a.tlphone{margin:-5px 0px 0px 0px;font-size: 20px;color:#000000;display:block;}
