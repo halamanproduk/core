@@ -440,7 +440,10 @@ h3.post_item_title{font-size:1px;text-indent:-999999px;position:absolute;}
 .large_thumb{margin:0 auto;display:block;max-height:300px;overflow:hidden;position:relative;}
 .thumb_hover{}
 .img_wrapper{margin:0 auto;display:block;max-height:300px;overflow:hidden;position:relative;padding-bottom:140%;}
+.thumb{top:-20%;margin:0 auto;min-width:250%;zoom:1;position:absolute;}
+/*
 .thumb{top:-20%;margin:0 auto;min-width:250%;height:500px;min-height:500px;zoom:1;position:absolute;}
+*/
 .archvcov{width:100%;margin:10px 0px 10px 0px;}
 h1.archive{margin:0px 0px 0px 0px;font-size:20px;color:#000;font-family:'Open Sans',arial,sans-serif;font-weight:400;text-transform:uppercase;line-height:inherit;}
 h1.archive a{padding:0px 5px 0px 5px;color:#000;text-shadow:none;background:#fefefe;}
