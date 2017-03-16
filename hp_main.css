@@ -279,7 +279,7 @@ a.home-link:hover{color: #212121;}
 .post-footer{margin-top:0px;margin-bottom:30px;padding:20px 15px 0px 15px;font-size:13px;}
 .post_tag a{background-color:#f8f8f8;box-shadow:0 1px 1px rgba(0, 0, 0, 0.1);color:#666666 !important;
  font-weight:normal;margin-bottom:5px;margin-right:5px;padding:0.7em 0.9em;text-shadow:0 1px 1px #FFFFFF;}
-.post_tag a:hover{text-decoration:none;background-color:#222;color:#FFFFFF!important;opacity:1;text-shadow:0 1px 1px rgba(0, 0, 0, 0.3);}
+.post_tag a:hover{text-decoration:none;background-color:#1AB898;color:#FFFFFF!important;opacity:1;text-shadow:0 1px 1px rgba(0, 0, 0, 0.3);}
 
 div#footer a{color:#212121;}
 #footer{margin:20px 0px 0px 0px;padding:0px 10px 20px 10px;font-size: 0.9em;color:#000000;border-top:1px solid #F7F7F7;border-bottom:1px solid #F1F1F1;background:#fbfbfb;}
