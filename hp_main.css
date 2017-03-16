@@ -94,7 +94,7 @@ img{border-style:none;}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary{display:block;}
 h1.sitebrand{margin:0px 0px 0px 0px;padding:0px 15px 0px 15px;text-decoration:none;}
-h1.sitebrand a{font-family:'Roboto', arial, sans-serif;font-size:20px;font-weight:400;line-height:inherit;color:#FFFFFF;text-decoration:none;letter-spacing:.076rem;text-shadow:0 -1px 1px rgba(0, 0, 0, 0.14);}
+h1.sitebrand a{font-family:'Open Sans', sans-serif;font-size:20px;font-weight:400;line-height:inherit;color:#FFFFFF;text-decoration:none;letter-spacing:.076rem;text-shadow:0 -1px 1px rgba(0, 0, 0, 0.14);}
 h1.sitebrand a:hover{text-decoration:none;}
 
 .fa-bars_rspnsv:before{content:"\f0c9";margin:0px 2px 0px 0px;color:#FFFFFF;font-size:20px;top:0px;position:relative;0 -1px 1px rgba(0, 0, 0, 0.14);}
@@ -269,7 +269,7 @@ div#footer a{color:#212121;}
 #footer a {font-size:15px;color:#212121;}
 #footer a:hover{text-decoration:none;color:#999;}
 #footer .widget {width:100%;padding-top:20px;margin-bottom:10px;font-size:14px;display:inline-block;}
-#footer .widget > h2 {position:relative;font-weight: 600;font-size: 22px;font-family:'Roboto Slab', sans-serif;color: #707070;padding: 0 15px;line-height: 40px;margin-top: 0;margin-bottom:30px;text-align: center;}
+#footer .widget > h2 {position:relative;font-weight: 600;font-size: 22px;font-family:'Open Sans', sans-serif;color: #707070;padding: 0 15px;line-height: 40px;margin-top: 0;margin-bottom:30px;text-align: center;}
 .footer h2 span {border-bottom: 3px solid #C8C8C8;padding-bottom: 5px;font-weight: 400;color:#212121;}
 
 .footercontainer{width:1170px;margin-right:auto;margin-left:auto;padding:0px 15px 30px 15px;position:relative;}
