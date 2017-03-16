@@ -161,7 +161,7 @@ h4.prdkprice{font-size:20px;}
 .post_meta_info{background:none;border:none;margin-bottom:10px;padding:0;}
 .post_meta_info span{color:#000;font-family:Georgia, "Times New Roman", Times, serif;font-size:12px;font-style:italic;line-height:1;margin-right:12px;padding:5px 5px;white-space:nowrap;text-shadow:none;background:#F9F9F9;}
 .prdkdskrp{font-weight:300;color:#000;}
-.prgrph {font-family:'Roboto',arial,sans-serif;font-size:15px;letter-spacing:.083rem;line-height:24px;color:#000;}
+.prgrph {font-family:'Roboto',arial,sans-serif;font-size:15px;letter-spacing:.05rem;line-height:24px;color:#000;}
 
 /*<!--Search Start-->*/
 input#searchbox{width:100%;height:28px;margin:3px 0px 0px 0px;border:none;background:#fff;box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none;}
