@@ -185,7 +185,7 @@ label{max-width:100%;margin:0px 0px 5px 0px;font-size:15px;font-family:'Open San
 
 /*<!--Search Start-->*/
 input#searchbox{width:100%;height:28px;margin:3px 0px 0px 0px;border:none;background:#fff;box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none;}
-.btn-info{margin:2px 0px 0px 0px;padding:4px 12px;background-color:#169E83;border-color:#169E83;outline:none!important;transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;}
+.btn-info{margin:2px 0px 0px 0px;padding:6px 12px;background-color:#169E83;border-color:#169E83;outline:none!important;transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;}
 .btn-info.active,.btn-info:active,.btn-info.active:hover,.btn-info:active.focus,.btn-info:active:focus,.btn-info:active:hover,.btn-info.active.focus,.btn-info.active:focus,.btn-info.focus,.btn-info:focus,.btn-info:hover{background-color:#1EAD8B;border-color:#1EAD8B;outline:none!important;}
 .navbar-fixed-top .navbar-collapse{max-height:400px;}
 .navbar-form{border:none;box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none;}
@@ -348,7 +348,10 @@ ul.sosmedph li{}
 .sosmed{position:relative;height:100%;padding:0;}
 
 .dpttle{text-align:justify;font-size:14px;font-style:normal;font-variant:normal;font-family:"AvenirBook","Helvetica Neue",Helvetica,Arial,sans-serif;line-height:20px;letter-spacing:.1rem;}
-
+.ongkircntnr{position:relative;height:0;overflow:hidden;margin-bottom:1.5rem;}
+.ongkircntnrpddnga{padding-bottom:56.25%}
+.ongkircntnrpddnga{padding-bottom:75%}
+.ongkircntnr iframe{position:absolute;top:0;left:0;width:66%;height:100%;margin:0!important;border:2px solid #ccc;}
 @media (max-width: 992px){.sosmedcov{margin:50px 0px 20px 0px;padding:0;}}
 ul.sosmedul li{width:20%!important;}
 
