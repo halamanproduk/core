@@ -340,7 +340,7 @@ h4 a.accrdn_ttle,h4 a.collapsed.accrdn_ttle{padding:18px 0px 18px 0px;font-size:
 
 #footer a.tlphone{margin:-5px 0px 0px 0px;font-size:20px;color:#000000;display:block;}
 ul.sosmedba li{margin:0px 0px 10px 0px;text-align:left;}
-ul.sosmedba li.ftrsosmedicon a{font-size:12px!important;color:#000000!important;letter-spacing:.05rem;text-transform:uppercase;}
+ul.sosmedba li.ftrsosmedicon a{font-size:12px!important;color:#000000!important;letter-spacing:.05rem;text-transform:uppercase;text-decoration:none;}
 ul.sosmedba li.ftrsosmedicon a:hover{color:#777!important;}
 ul.sosmedph li{}
 .sosmedcov{margin:40px 0px 0px 0px;padding:0;}
