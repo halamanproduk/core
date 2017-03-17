@@ -75,7 +75,6 @@ img{border-style:none;}
 .clear{clear:both;}
 .btn-info{background-color:rgba(0, 0, 0, 0.3);border-color:#a7a7a7;outline:none!important;transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;}
 .btn-info.active,.btn-info:active,.btn-info.active:hover,.btn-info:active.focus,.btn-info:active:focus,.btn-info:active:hover,.btn-info.active.focus,.btn-info.active:focus,.btn-info.focus,.btn-info:focus,.btn-info:hover{background-color:#212121;border-color:#000000;outline:none!important;}
-.pddngnll{padding:0px 0px 0px 0px;}
 .pddngnllstd{padding:0px 0px 0px 0px;}
 .pddngsvn{padding:0px 7px 0px 7px;}
 .pddngaccrdn{padding:0px 30px 0px 30px;}
@@ -377,6 +376,7 @@ ul.sosmedul li{width:20%!important;}
 @media (max-width:855px){.singblnjpadd{padding:0px 45px 0px 15px;}} 
 
 @media (max-width: 767px){
+.pddngnll{padding:0px 0px 0px 0px;}
 .tophr{margin:20px 15px 0px 15px;}
  .pg_postbody,.itm_postbody{padding:0px 15px 0px 15px;}
 .btstd{margin:20px 0px 0px 0px;}
