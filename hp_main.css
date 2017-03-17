@@ -167,8 +167,7 @@ h4.prdkprice{font-size:20px;}
 .prdkdskrp{font-weight:300;color:#000;}
 .prgrph {font-family:'Roboto',arial,sans-serif;font-size:15px;letter-spacing:.05rem;line-height:24px;color:#000;}
 
-.kontakdskrp{font-family:'Open Sans',arial,sans-serif;
-font-size:15px;font-weight:300;color:#000;}
+.kontakdskrp{font-family:'Open Sans',arial,sans-serif;font-size:15px;font-weight:300;color:#000;}
 .cfttle{font-size:17px;font-family:'Open Sans',arial,sans-serif;line-height:30px;text-transform:uppercase;letter-spacing:.1rem;color:#169E83;text-shadow:0 -1px 1px #fff;}
 .cfttle_phonecov{font-size:15px;font-weight:400;line-height:24px;text-transform:uppercase;letter-spacing:.1rem;color:#000;text-shadow:0 -1px 1px #fff;}
 .pddngrl0{padding:0px 0px 0px 0px;}
@@ -178,8 +177,7 @@ label{max-width:100%;margin:0px 0px 5px 0px;font-size:15px;font-family:'Open San
 .btn,.contact-form-button{padding:6px 15px;font-size:12px;border:medium none;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;transition:all 0.25s linear 0s;-webkit-transition:all 0.25s linear 0s;-moz-transition:all 0.25s linear 0s;-ms-transition:all 0.25s linear 0s;-o-transition: all 0.25s linear 0s;}
 .btnmrgn{margin:5px 5px 5px 5px;}
 .btn_dflthp,.contact-form-button-submit{padding:5px 15px;color:#fff;font-size:12px;letter-spacing:.076rem;font-family:'Open Sans',arial,sans-serif;position:relative;background:#169E83;cursor:pointer;white-space:nowrap;outline:none!important;border:none!important;border-bottom:1px solid #1A9377!important;}
-.btn_dflthp:hover,.btn_dflthp:focus,.btn_dflthp:active,.contact-form-button-submit:hover,.contact-form-button-submit:focus,.contact-form-button-submit.btn_dflthp:active
-{color:#fff;background:#1EAD8B;transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;}
+.btn_dflthp:hover,.btn_dflthp:focus,.btn_dflthp:active,.contact-form-button-submit:hover,.contact-form-button-submit:focus,.contact-form-button-submit.btn_dflthp:active{color:#fff;background:#1EAD8B;transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;}
 .btnshop{padding:5px 15px;color:#fff;font-size:12px;letter-spacing:.076rem;font-family:'ProximaNovaRegular','Helvetica Neue', Helvetica, Arial, sans-serif;text-shadow:none;position:relative;background:#D5D5D5;cursor:pointer;white-space:nowrap;outline:none !important;border:none!important;border-bottom:1px solid #BBBBBB!important;}
 .btnshop:hover,.btnshop:focus,.btnshop:active{color:#fff;background:#E2E2E2;transition: all 0.25s ease-in-out;-ms-transition: all 0.25s ease-in-out;-o-transition: all 0.25s ease-in-out;-moz-transition: all 0.25s ease-in-out;-webkit-transition: all 0.25s ease-in-out;}
 .btnshop_ers{position:relative;color:#fff;background:#da4453;}
@@ -277,13 +275,12 @@ h1.archive a:hover{text-decoration:none;color:#000;text-shadow:none;background:#
 .srchqry {width:auto;margin:0px 0px 35px 0px;padding:5px 15px 5px 15px;display:inline-block;font-family:'Open Sans',arial,sans-serif;font-size:14px;text-transform:uppercase;line-height:1;text-shadow:none;color:#000;background:#f9f9f9;}
 .srchqryerr{width:auto;margin:0px 0px 0px 0px;padding:5px 5px 5px 5px;display:inline-block;font-family:Georgia, 'Times New Roman', Times, serif;font-size:130px;font-style:italic;line-height:1;text-shadow:none;color:#fff;background:#212121;}
 #blog-pager{clear:both;margin:0px auto;padding:30px 15px 20px 15px;text-align:center;line-height:43px;}
-#blog-pager-newer-link{float: left;}
-#blog-pager-newer-link a{font-family:Georgia,"Times New Roman",Times,serif;font-size:12px;font-style:italic;color:#999999;display:inline-block;text-decoration:none;}
-#blog-pager-newer-link a:hover{text-decoration:none;color:#212121;text-shadow:none;background:#f8f8f8;}
-#blog-pager-older-link {float: right;}#blog-pager-older-link a{font-family:Georgia,"Times New Roman",Times,serif;font-size:12px;font-style:italic;color:#999999;display:inline-block;}
-#blog-pager-older-link a:hover{text-decoration:none;color:#212121;text-shadow:none;background:#f8f8f8;}
-a.home-link {color: rgba(0, 0, 0, 0.3);transition: all 0.25s ease-in-out;-ms-transition: all 0.25s ease-in-out;-o-transition: all 0.25s ease-in-out;-moz-transition: all 0.25s ease-in-out;-webkit-transition: all 0.25s ease-in-out;}
-a.home-link:hover{color: #212121;}
+#blog-pager-newer-link{float:left;}
+#blog-pager-newer-link a,#blog-pager-older-link a{font-family:Georgia,"Times New Roman",Times,serif;font-size:12px;font-style:italic;color:#999999;display:inline-block;text-decoration:none;}
+#blog-pager-newer-link a:hover,#blog-pager-older-link a:hover{text-decoration:none;color:#212121;text-shadow:none;background:#f8f8f8;}
+#blog-pager-older-link{float:right;}
+a.home-link{color: rgba(0, 0, 0, 0.3);transition: all 0.25s ease-in-out;-ms-transition: all 0.25s ease-in-out;-o-transition: all 0.25s ease-in-out;-moz-transition: all 0.25s ease-in-out;-webkit-transition: all 0.25s ease-in-out;}
+a.home-link:hover{color:#212121;}
 .nwrpg{position:relative;top:-2px;left:5px;}
 .oldrpg{position:relative;top:-2px;right:5px;}
 
@@ -317,8 +314,7 @@ div#footer a{color:#212121;}
 .footlinkcore img{float:left;}
 p.cpyrght{margin:0px 0px 0px 0px;float:right;}
 
-.contaccrdn{background:transparent;}
-.rowaccrdn{background:transparent;}
+.contaccrdn,.rowaccrdn{background:transparent;}
 .pad-top {padding-top:40px;}
 .panel{-webkit-box-shadow:none;box-shadow:none;}
 .panel-default{border-color:transparent;}
@@ -371,11 +367,11 @@ ul.sosmedul li{width:20%!important;}
 }
 
 @media only screen and (max-width: 1199px) and (min-width: 992px){
-.footercontainer {width: 970px;}
+.footercontainer{width: 970px;}
 }
 
 @media only screen and (max-width: 991px) and (min-width: 768px){
-.col-md-4 {width: 50%;}.footercontainer {width: 750px;}.col-md-4sbx{width:100%;}
+.col-md-4 {width: 50%;}.footercontainer{width: 750px;}.col-md-4sbx{width:100%;}
 }
 
 @media (max-width:855px){.singblnjpadd{padding:0px 45px 0px 15px;}} 
