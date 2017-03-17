@@ -311,9 +311,11 @@ div#footer a{color:#212121;}
 #footer .widget {width:100%;padding-top:20px;margin-bottom:10px;font-size:14px;display:inline-block;}
 #footer .widget > h2 {position:relative;font-weight: 600;font-size: 22px;font-family:'Open Sans', sans-serif;color: #707070;padding: 0 15px;line-height: 40px;margin-top: 0;margin-bottom:30px;text-align: center;}
 .footer h2 span {border-bottom: 3px solid #C8C8C8;padding-bottom: 5px;font-weight: 400;color:#212121;}
-
 .footercontainer{width:1170px;margin-right:auto;margin-left:auto;padding:0px 15px 30px 15px;position:relative;}
 #footer .row{}
+.footlinkcore{background:#f7f7f7;}
+.footlinkcore img{float:left;}
+p.cpyrght{margin:0px 0px 0px 0px;float:right;}
 
 .contaccrdn{background:transparent;}
 .rowaccrdn{background:transparent;}
@@ -377,6 +379,8 @@ ul.sosmedul li{width:20%!important;}
 }
 
 @media (max-width:855px){.singblnjpadd{padding:0px 45px 0px 15px;}} 
+
+@media (max-width: 719px) {.footlinkcore img{float:none;} p.cpyrght{margin:20px 0px 0px 0px;text-align:left;}}
 
 @media (max-width: 767px){
 .tophr{margin:20px 0px 0px 0px;}
