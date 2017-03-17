@@ -378,7 +378,7 @@ ul.sosmedul li{width:20%!important;}
 @media (max-width:855px){.singblnjpadd{padding:0px 45px 0px 15px;}} 
 
 @media (max-width: 767px){
-.tophr{margin:20px 15px 0px 15px;}
+.tophr{margin:20px 0px 0px 0px;}
 .pg_postbody,.itm_postbody{padding:0px 15px 0px 15px;}
 .btstd{margin:20px 0px 0px 0px;}
 .navbar-brand>img{top:-7px;}
