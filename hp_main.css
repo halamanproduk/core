@@ -217,7 +217,7 @@ h1.archive a:hover{text-decoration:none;color:#000;text-shadow:none;background:#
 .itm_postbody a{color:#212121;text-decoration:none;}
 .itm_postbody a:hover{color:#999;text-decoration:none;}
 
-.addthis_toolbox_cov{margin-bottom:30px;padding:20px;}
+.addthis_toolbox_cov{margin-bottom:30px;padding:20px 15px 20px 15px;}
 .status-msg-body{position:relative!important;}
 .CSS_LIGHTBOX{z-index: 9999!important;}
 .fblike{height:20px;max-width:84px;padding:8px 0 3px 13px;}
