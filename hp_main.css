@@ -126,6 +126,18 @@ h1.sitebrand a:hover{text-decoration:none;}
 .fa-youtube-play:hover:before{color:#1AB898;}
 .fa-instagram:hover:before{color:#1AB898;}
 .fa-google-plus:hover:before{color:#1AB898;}
+
+.fa-facebook:before,.fa-twitter:before,.fa-youtube-play:before,.fa-instagram:before,.fa-google-plus:before
+{
+background:#f7f7f7;
+margin:0px 4px 0px 0px;
+padding:10px 0px;
+width:44px;
+height:42px;
+display:block;
+}
+
+
 .fa-chevron-circle-right:before{content:"\f138";color:rgba(0, 0, 0, 0.3);font-size:20px;}
 .fa-chevron-circle-left:before{content:"\f137";color:rgba(0, 0, 0, 0.3);font-size:20px;}
 .fa-chevron-circle-crsl-right:before {content:"\f138";color:#fff;font-size:30px;top:200px;position:relative;}
