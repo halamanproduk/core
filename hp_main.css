@@ -121,12 +121,6 @@ h1.sitebrand a:hover{text-decoration:none;}
 .fa-youtube-play:before{color:#000000;font-size:22px;top:0px;position:relative;text-shadow:0 0px 2px #fff;transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;} 
 .fa-instagram:before{color:#000000;font-size:22px;top:0px;position:relative;text-shadow:0 0px 2px #fff;transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;}
 .fa-google-plus:before{color:#000000;font-size:22px;top:0px;position:relative;text-shadow:0 0px 2px #fff;transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;}
-.fa-facebook:hover:before{color:#1AB898;}
-.fa-twitter:hover:before{color:#1AB898;}
-.fa-youtube-play:hover:before{color:#1AB898;}
-.fa-instagram:hover:before{color:#1AB898;}
-.fa-google-plus:hover:before{color:#1AB898;}
-
 .fa-facebook:before,.fa-twitter:before,.fa-youtube-play:before,.fa-instagram:before,.fa-google-plus:before
 {
 background:#f7f7f7;
@@ -136,7 +130,11 @@ width:44px;
 height:42px;
 display:block;
 }
-
+.fa-facebook:hover:before,.fa-twitter:hover:before,.fa-youtube-play:hover:before,.fa-instagram:hover:before,.fa-google-plus:hover:before
+{
+color:#1AB898;
+background:#f9f9f9;
+}
 
 .fa-chevron-circle-right:before{content:"\f138";color:rgba(0, 0, 0, 0.3);font-size:20px;}
 .fa-chevron-circle-left:before{content:"\f137";color:rgba(0, 0, 0, 0.3);font-size:20px;}
