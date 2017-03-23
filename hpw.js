@@ -1,5 +1,5 @@
 $(document).ready(function(e) {
-$('.recent-post-thumb').attr('src', function(i, src) {return src.replace( 's72-c', 's2048' );});
+
 $(window).scroll(function () {$(this).scrollTop() ? $(".gototop").fadeIn() : $(".gototop").fadeOut()}), $(".gototop").click(function () {$("html,body").animate({scrollTop: 0}, 500)})
 
 var src = $('.featimg').attr('src');
