@@ -31,13 +31,3 @@ html, html a {font-smooth:always;font-smoothing:antialiased;-webkit-font-smoothi
 @media screen and (min-width: 1200px){.thumb{top:-20%;left:-23%;}}
 @media (min-width: 1024px) and (max-width: 1279px){.fa-facebook:before,.fa-twitter:before,.fa-youtube-play:before,.fa-instagram:before,.fa-google-plus:before{margin:-2px 4px 0px 0px;}}
 @media (min-width: 1280px){.fa-facebook:before,.fa-twitter:before,.fa-youtube-play:before,.fa-instagram:before,.fa-google-plus:before{margin:-2px 4px 0px -11px;}}
-/*
-@media (min-width: 320px) and (max-width: 383px){.navbar-form{margin-right:0px;}.gototop-inner{right:30px;}}
-@media (min-width: 384px) and (max-width: 599px){.navbar-form{margin-right:0px;}.gototop-inner{right:30px;}}
-@media screen and (min-device-width: 600px) and (max-device-width: 767px){.navbar-form{margin-right:0px;}.gototop-inner{right:30px;}}
-@media screen and (min-device-width: 768px) and (max-device-width: 799px){.navbar-form{margin-right:-15px;}}
-@media screen and (min-device-width: 800px) and (max-device-width: 1023px){.navbar-form{margin-right:-15px;}}
-@media screen and (min-device-width: 1024px){.navbar-form{margin-right:-15px;}}
-@media screen and (min-device-width: 1400px){.navbar-form{margin-right:-15px;}}
-@media screen and (min-device-width: 1600px){.navbar-form{margin-right:-15px;}}
-*/
