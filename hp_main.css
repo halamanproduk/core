@@ -31,3 +31,14 @@ html, html a {font-smooth:always;font-smoothing:antialiased;-webkit-font-smoothi
 @media screen and (min-width: 1200px){.thumb{top:-20%;left:-23%;}}
 @media (min-width: 1024px) and (max-width: 1279px){.fa-facebook:before,.fa-twitter:before,.fa-youtube-play:before,.fa-instagram:before,.fa-google-plus:before{margin:-2px 4px 0px 0px;}}
 @media (min-width: 1280px){.fa-facebook:before,.fa-twitter:before,.fa-youtube-play:before,.fa-instagram:before,.fa-google-plus:before{margin:-2px 4px 0px -11px;}}
+@media (max-width: 270px){li.ftrsosmedicon a.ftsosicon{margin:0px 0px 0px -15px;}}
+@media (min-width: 271px) and (max-width: 320px){li.ftrsosmedicon a.ftsosicon{margin:0px 0px 0px -10px;}}
+@media (min-width: 321px) and (max-width: 352px){li.ftrsosmedicon a.ftsosicon{margin:0px 0px 0px -10px;}}
+@media (min-width: 353px) and (max-width: 386px){li.ftrsosmedicon a.ftsosicon{margin:0px 0px 0px -7px;}}
+@media (min-width: 387px) and (max-width: 399px){li.ftrsosmedicon a.ftsosicon{margin:0px 0px 0px -4px;}}
+@media (min-width: 400px) and (max-width: 426px){li.ftrsosmedicon a.ftsosicon{margin:0px 0px 0px -2px;}}
+@media (min-width: 427px) and (max-width: 991px){li.ftrsosmedicon a.ftsosicon{margin:0px 0px 0px 0px;}}
+@media (min-width: 992px) and (max-width: 1199px){li.ftrsosmedicon a.ftsosicon{margin:0px 0px 0px -15px;}}
+@media (min-width: 1200px) and (max-width: 1272px){li.ftrsosmedicon a.ftsosicon{margin:0px 0px 0px -11px;}}
+@media (min-width: 1273px) and (max-width: 1279px){li.ftrsosmedicon a.ftsosicon{margin:0px 0px 0px -11px;}}
+@media (min-width: 1280px){li.ftrsosmedicon a.ftsosicon{margin:0px 0px 0px 0px;}}
