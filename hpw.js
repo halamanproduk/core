@@ -1,5 +1,7 @@
 $(document).ready(function(e) {
-	
+
+window.onload=function(){$('.xdiv').remove();$('#categclmn').css('display', 'none');};
+
 $('.recent-post-thumb').attr('src', function(i, src) {return src.replace( 's72-c', 's2048' );});
 $(window).scroll(function () {$(this).scrollTop() ? $(".gototop").fadeIn() : $(".gototop").fadeOut()}), $(".gototop").click(function () {$("html,body").animate({scrollTop: 0}, 500)})
 
