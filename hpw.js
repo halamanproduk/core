@@ -1,6 +1,6 @@
 $(document).ready(function(e) {
 
-$('a').each(function(key, val){$(val).attr('href', $(val).attr('href').replace("http://www.halamanproduk", "https://www.halamanproduk"));});
+$("a").each(function(){var i = $(this).attr("href");var n = i.replace("http://www.halamanproduk", "https://www.halamanproduk");$(this).attr("href", function(){return n})})
 
 window.onload=function(){$('.xdiv').remove();$('#categclmn').css('display', 'none');};
 
