@@ -1,15 +1,9 @@
 $(document).ready(function(e) {
-
-$("a").each(function(){var i = $(this).attr("href");var n = i.replace("http://www.halamanproduk", "https://www.halamanproduk");$(this).attr("href", function(){return n})})
-
 window.onload=function(){$('.xdiv').remove();$('#categclmn').css('display', 'none');};
-
 $('.recent-post-thumb').attr('src', function(i, src) {return src.replace( 's72-c', 's2048' );});
 $(window).scroll(function () {$(this).scrollTop() ? $(".gototop").fadeIn() : $(".gototop").fadeOut()}), $(".gototop").click(function () {$("html,body").animate({scrollTop: 0}, 500)})
-
 var src = $('.featimg').attr('src');
 $('img#itmmainImage').attr('src','' + src + '');
-
 var newerLink = $("a.blog-pager-newer-link").attr("href");
 $("a.blog-pager-newer-link").load(newerLink+" h1.mainpost", function() { 
 var chevroncl = "<i class='fa fa-chevron-cl-blgpgritm'></i>";
@@ -22,7 +16,6 @@ var chevroncr = "<i class='fa fa-chevron-cr-blgpgritm'></i>";
 var olderLinkTitle = $("a.blog-pager-older-link").text(); 
 $("a.blog-pager-older-link").text(olderLinkTitle).attr("title", olderLinkTitle).html(olderLinkTitle + chevroncr);
 }); 
-
 function hovtoclick(){
 	var wi = $(window).width();
 	if (wi > 992){
@@ -94,11 +87,10 @@ $(window).resize(function(){
 	hovtoclick();
 });
 $(window).trigger('resize');
-
 $('.navbar-toggle').click(function(){
 	$("i",this).toggleClass("fa-times_rspnsv");
 });
-	
+$("a").each(function(){var i = $(this).attr("href");var n = i.replace("http://www.halamanproduk", "https://www.halamanproduk");$(this).attr("href", function(){return n})})
 });
 
 $(window).resize(function(e) {
