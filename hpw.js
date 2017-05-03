@@ -90,8 +90,11 @@ $(window).trigger('resize');
 $('.navbar-toggle').click(function(){
 	$("i",this).toggleClass("fa-times_rspnsv");
 });
-$("a").each(function(){var i = $(this).attr("href");var n = i.replace("http://www.halamanproduk", "https://www.halamanproduk");$(this).attr("href", function(){return n})})
 });
+
+if (location.protocol != 'https:'){
+location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+}
 
 $(window).resize(function(e) {
     var textSize 	= $(".srchqryerr").css("font-size");
